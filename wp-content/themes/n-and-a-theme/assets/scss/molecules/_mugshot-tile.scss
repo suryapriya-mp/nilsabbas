@@ -1,0 +1,10 @@
+.mugshot-tile-outer{
+    padding: 10px;
+    width: 22%;
+    &__img-outer{
+        width: 100%;
+        height: 100%;
+        border-radius: 3%;
+        overflow: hidden;
+    }
+}

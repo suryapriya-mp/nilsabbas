@@ -1,0 +1,36 @@
+.company-value-sec{
+    height: 300px;
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+
+    &__short-title{
+        font-size: 12px;
+        color: gray;
+        font-weight: 700;
+    }
+    &__heading{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    &__features-outer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__features-tile{
+        width: 50%;
+        padding-bottom: 20px;
+    }
+    &__features-tile-head{
+        font-weight: 500;
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    &__features-tile-desc{
+        font-size: 15px;
+    }
+    .button{
+        justify-content:left;
+    }
+}

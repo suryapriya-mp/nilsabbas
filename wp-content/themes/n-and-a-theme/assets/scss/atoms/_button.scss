@@ -1,0 +1,46 @@
+.button {
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+    position: relative;
+
+    // &::after{
+    //     content: "";
+    //     position: absolute;
+    //     width: 100%;
+    //     height: 1px;
+    //     left: 0;
+    //     bottom: 0;
+    //     background-color: #FF0000;
+    // }
+
+
+    &__text{
+        color: #FF0000;
+        padding-right: 20px;
+        position: relative;
+        font-size: 16px;
+
+        // &::before{
+        //     content: "";
+        //     position:absolute;
+        //     width: 100%;
+        //     height: 1px;
+        //     left: 0;
+        //     top: 0;
+        //     background-color: red;
+        // }
+    }
+    &__arrow{
+        color: #FF0000;
+    }
+    &:hover{
+        transition: 0.3s;
+        .button__text{
+            color: #FF0000;
+        }
+        .button__arrow{
+            color: #FF0000;
+        }
+    }
+}

@@ -1,0 +1,96 @@
+.quotes-about{
+    margin-bottom: 55px;
+    &__quotes-outer{
+        display: flex;
+        align-items: center;
+    }
+    &__left-quotes{
+        width: 30%;
+        margin-right: 5%;
+    }
+    &__left-head{
+        font-size: 20px;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    &__left-desc{
+        padding-bottom: 42px;
+    }
+    &__left-button{
+        background-color: blue;
+        padding: 9px;
+        color: white;
+        display: block;
+        width: 65%;
+        text-align: center;
+    }
+    &__right-slide-outer{
+        display: flex;
+        width: 70%;
+    }
+    &__right-quotes{
+        padding: 30px;
+        width: 70%;
+        border: 2px solid lightgray;
+    }
+    &__right-tile{
+        margin-right: 20px;
+    }
+
+    .slick-arrow {
+        display: none !important;
+    }
+
+    .slick-about-us{
+        width: 70%;
+    }
+    .slick-dots li button:before{
+        background-color: black;
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+    }
+    .slick-dotted.slick-slider{
+        margin-bottom: 0 !important;
+    }
+
+}
+
+@include mobile{
+    .quotes-about{
+        &__quotes-outer{
+            flex-direction: column;
+        }
+        &__left-quotes{
+            width: 100%;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        &__left-head{
+            padding-bottom: 10px;
+        }
+        &__left-desc{
+            padding-bottom: 15px;
+        }
+        &__right-slide-outer{
+            width: 100%;
+        }
+        &__right-quotes{
+            width: 100%;
+        }
+        .slick-about-us{
+            width: 100%;
+        }
+    } 
+}
+
+@include tablet{
+    .quotes-about{
+        &__left-quotes{
+            width: 50%;
+        }
+        .slick-about-us{
+            width: 50%;
+        }
+    }
+}

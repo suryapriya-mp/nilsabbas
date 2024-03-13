@@ -1,0 +1,19 @@
+.features-tile{
+    &__img{
+        width: 50px;
+    }
+    &__heading{
+        font-size: 20px;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+    &__description{
+        font-size: 15px;
+        font-weight: regular;
+        color: grey;
+    }
+    &__contents{
+        margin-top: 10px;
+    }
+
+}

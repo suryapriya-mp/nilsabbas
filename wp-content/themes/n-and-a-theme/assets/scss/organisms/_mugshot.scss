@@ -1,0 +1,19 @@
+.mugshot-sec{
+    &__left-head{
+        font-size: 12px;
+        font-weight: 600;
+        padding-bottom: 12px
+    }
+    &__left-tile{
+        border: none;
+    }
+    &--padding55{
+        padding-bottom: 55px;
+    }
+}
+
+@include mobile{
+    .quotes-about__left-quotes{
+        padding-bottom: 0px;
+    }
+}

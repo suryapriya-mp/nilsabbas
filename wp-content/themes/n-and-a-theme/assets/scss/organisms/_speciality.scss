@@ -1,0 +1,32 @@
+.speciality-sec{
+    padding: 80px 0px;
+    background-color: #f5f5f5;
+    &__speciality-inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0 -15px;
+    }
+    &__speciality-tile{
+        width: calc(33.3% - 30px);
+        margin: 0 15px;
+        padding-bottom: 40px;
+    }
+}
+@include tablet{
+    .speciality-sec{
+    &__speciality-tile{
+        width: calc(50% - 30px);
+        margin: 0 15px;
+    }
+}
+}
+
+@include mobile{
+    .speciality-sec{
+        &__speciality-tile{
+            width: 100%;
+        }
+    }
+}
+
